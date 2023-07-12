@@ -335,7 +335,7 @@ function Projects() {
     )
 }
 
-function Skills() {
+function Contact() {
     return (
         <>
             <div className=" font-medium relative text-2xl mt-2 md:mt-4 mb-4">
