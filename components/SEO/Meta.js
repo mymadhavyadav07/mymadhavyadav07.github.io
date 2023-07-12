@@ -38,7 +38,7 @@ export default function Meta() {
             <meta name="og:title" content="Madhav Yadav Portfolio - Cyber Security Researcher" />
             <meta name="og:description"
                 content="Madhav Yadav's (mymadhavyadav07) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
-            <meta name="og:image" content="images/logos/logo_1200.png" />
+            <meta name="og:image" content="./images/logos/logo_1200.png" />
             <meta name="og:url" content="http://mymadhavyadav07.github.io/" />
             <meta name="og:site_name" content="Vivek Patel Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
