@@ -361,31 +361,31 @@ function Contact() {
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>
-            <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list">
+            <ul className=" list-arrow tracking-tight text-sm md:text-base w-10/12 emoji-list">
                 <li className=" text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <a href="https://www.github.com/mymadhavyadav07" target="_blank" rel="noreferrer">
-                    👉 My Github Profile - @mymadhavyadav07 🙌
+                    My Github Profile - @mymadhavyadav07 🙌
                     
                     </a>
                 </li>
-                <li className=" text-sm md:text-base mt-4 leading-tight tracking-tight">
+                <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <a href="https://in.linkedin.com/in/mymadhavyadav07">
-                    👉 Connect with me on LinkedIN - @mymadhavyadav07 🔗
+                    Connect with me on LinkedIN - @mymadhavyadav07 🔗
                     </a>
                 </li>
-                <li className=" text-sm md:text-base mt-4 leading-tight tracking-tight">
+                <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <a href="https://www.instagram.com/mymadhavyadav07/">
-                    👉 Follow me on Instagram - @mymadhavyadav07 ✨
+                    Follow me on Instagram - @mymadhavyadav07 ✨
                     </a>
                 </li>
-                <li className=" text-sm md:text-base mt-4 leading-tight tracking-tight">
+                <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <a href="https://twitter.com/mymadhavyadav07">
-                    👉 I am quite active on twitter as well - @mymadhavyadav07 😗
+                    I am quite active on twitter as well - @mymadhavyadav07 😗
                     </a>
                 </li>
-                <li className=" text-sm md:text-base mt-4 leading-tight tracking-tight">
+                <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <a href="mailto:mymadhavyadav07@gmail.com">
-                    👉 Do you use email? - mymadhavyadav07@gmail.com 📩
+                    Do you use email ? - mymadhavyadav07@gmail.com 📩
                     </a>
                 </li>
             </ul>
