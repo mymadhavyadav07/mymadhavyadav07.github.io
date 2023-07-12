@@ -19,7 +19,9 @@ export class AboutMadhav extends Component {
             "education": <Education />,
             "skills": <Skills />,
             "projects": <Projects />,
+            "contact": <Contact />,
             "resume": <Resume />,
+            
         }
 
         let lastVisitedScreen = localStorage.getItem("about-section");
@@ -328,8 +330,60 @@ function Projects() {
         </>
     )
 }
+
+function Skills() {
+    return (
+        <>
+            <div className=" font-medium relative text-2xl mt-2 md:mt-4 mb-4">
+                Contact Me
+                <div className="absolute pt-px bg-white mt-px top-full w-full">
+                    <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-full"></div>
+                    <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
+                </div>
+            </div>
+            <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list">
+                <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
+                    I've worked with a wide variety of programming languages & frameworks.
+                </li>
+                <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
+                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">Python, Git & Bash!</strong></div>
+                </li>
+                <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
+                    <div>Here are my most frequently used</div>
+                </li>
+            </ul>
+            <div className="w-full md:w-10/12 flex mt-4">
+                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Languages & Tools</div>
+                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Frameworks & Libraries</div>
+            </div>
+            <div className="w-full md:w-10/12 flex justify-center items-start font-bold text-center">
+                <div className="px-2 w-1/2">
+                    <div className="flex flex-wrap justify-center items-start w-full mt-2">
+                        <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" />
+                        <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff" className="m-1" />
+                        
+                    </div>
+                </div>
+                <div className="px-2 flex flex-wrap items-start w-1/2">
+                    <div className="flex flex-wrap justify-center items-start w-full mt-2">
+                        <img className="m-1" src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white" alt="vivek redux" />
+                    </div>
+                </div>
+            </div>
+            <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list mt-4">
+                <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
+                    <span> And of course,</span> <img className=" inline ml-1" src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff" alt="vivek linux" /> <span>!</span>
+                </li>
+            </ul>
+        </>
+    )
+}
+
+
+
+
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/Resume.pdf" title="Madhav's Resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" title="Madhav's Resume" frameBorder="0"></iframe>
     )
 }
