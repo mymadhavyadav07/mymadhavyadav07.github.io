@@ -12,7 +12,7 @@ export default function Meta() {
                 content="Madhav Yadav's (mymadhavyadav07) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta name="author" content="Madhav (mymadhavyadav07)" />
             <meta name="keywords"
-                content="mymadhavyadav07, mymadhavyadav07's portfolio, mymadhavyadav07 linux, ubuntu portfolio, madhav yadav protfolio, madhav yadav computer, madhav yadav, vivek ubuntu, madhav yadav ubuntu portfolio" />
+                content="mymadhavyadav07, mymadhavyadav07's portfolio, mymadhavyadav07 linux, ubuntu portfolio, madhav yadav protfolio, madhav yadav computer, madhav yadav, madhav ubuntu, madhav yadav ubuntu portfolio" />
             <meta name="robots" content="index, follow" />
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
             <meta name="language" content="English" />
@@ -42,7 +42,7 @@ export default function Meta() {
             <meta name="og:image:secure_url" content="./images/logos/logo_1200.png" />
             <meta name="og:image:url" content="./images/logos/logo_1200.png" />
             <meta name="og:url" content="http://mymadhavyadav07.github.io/" />
-            <meta name="og:site_name" content="Vivek Patel Personal Portfolio" />
+            <meta name="og:site_name" content="Madhav Yadav Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
             <meta name="og:type" content="website" />
 
