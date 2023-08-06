@@ -234,6 +234,15 @@ function Skills() {
 function Projects() {
     const project_list = [
         {
+            name: "NetaSoochak",
+            date: "July 2023",
+            link: "https://github.com/mymadhavyadav07/NetaSoochak",
+            description: [
+                "Know Your Candidates, Shape Your Future - Empowering Voters for Informed Decisions!",
+            ],
+            domains: ["NetaSoochak", "MyNeta", "Elections", "Politics", "Politicians"]
+        },
+        {
             name: "Flight Tracker",
             date: "July 2023",
             link: "https://github.com/mymadhavyadav07/Flight-Tracker",
