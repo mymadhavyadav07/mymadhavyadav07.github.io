@@ -35,6 +35,6 @@ Remember, cyber security is a shared responsibility. Stay vigilant, stay secure.
 
 <div align="center">
 
-**Credit: This website portfolio template was inspired by [Vivek Patel's](https://github.com/vivek9patel) original design.**
+**Credit: This website portfolio template was inspired by [MD Mafujul Hasan's](https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio) original design.**
 
 </div>
