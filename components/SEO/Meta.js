@@ -12,7 +12,7 @@ export default function Meta() {
                 content="Madhav Yadav's (mymadhavyadav07) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta name="author" content="Madhav (mymadhavyadav07)" />
             <meta name="keywords"
-                content="mymadhavyadav07, mymadhavyadav07's portfolio, mymadhavyadav07 linux, ubuntu portfolio, madhav yadav protfolio, madhav yadav computer, madhav yadav, vivek ubuntu, madhav yadav ubuntu portfolio" />
+                content="mymadhavyadav07, mymadhavyadav07's portfolio, mymadhavyadav07 linux, ubuntu portfolio, madhav yadav protfolio, madhav yadav computer, madhav yadav, madhav ubuntu, madhav yadav ubuntu portfolio" />
             <meta name="robots" content="index, follow" />
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
             <meta name="language" content="English" />
@@ -20,12 +20,12 @@ export default function Meta() {
             <meta name="theme-color" content="#E95420" />
 
             /* Search Engine */
-            <meta name="image" content="images/logos/fevicon.png" />
+            <meta name="image" content="./images/logos/fevicon.png" />
             /* Schema.org for Google */
             <meta itemProp="name" content="Madhav Yadav Portfolio - Cyber Security Researcher" />
             <meta itemProp="description"
                 content="Madhav Yadav's (mymadhavyadav07) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
-            <meta itemProp="image" content="images/logos/fevicon.png" />
+            <meta itemProp="image" content="./images/logos/fevicon.png" />
             /* Twitter */
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:title" content="Madhav Yadav Portfolio - Cyber Security Researcher" />
@@ -33,19 +33,21 @@ export default function Meta() {
                 content="Madhav Yadav's (mymadhavyadav07) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta name="twitter:site" content="mymadhavyadav07" />
             <meta name="twitter:creator" content="mymadhavyadav07" />
-            <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
+            <meta name="twitter:image:src" content="./images/logos/logo_1024.png" />
             /* Open Graph general (Facebook, Pinterest & Google+) */
             <meta name="og:title" content="Madhav Yadav Portfolio - Cyber Security Researcher" />
             <meta name="og:description"
                 content="Madhav Yadav's (mymadhavyadav07) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta name="og:image" content="./images/logos/logo_1200.png" />
+            <meta name="og:image:secure_url" content="./images/logos/logo_1200.png" />
+            <meta name="og:image:url" content="./images/logos/logo_1200.png" />
             <meta name="og:url" content="http://mymadhavyadav07.github.io/" />
-            <meta name="og:site_name" content="Vivek Patel Personal Portfolio" />
+            <meta name="og:site_name" content="Madhav Yadav Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
             <meta name="og:type" content="website" />
 
             <link rel="icon" href="images/logos/fevicon.svg" />
-            <link rel="apple-touch-icon" href="images/logos/logo.png" />
+            <link rel="apple-touch-icon" href="./images/logos/logo.png" />
             <link rel="preload" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" as="style" />
             <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"></link>
         </Head>
