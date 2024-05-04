@@ -47,7 +47,7 @@ function Footer() {
                 <AiFillInstagram />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="https://www.facebook.com/mymadhavyadav07"
                 style={{ color: "white" }}
@@ -56,7 +56,7 @@ function Footer() {
               >
                 <FaFacebookF />
               </a>
-            </li>
+            </li> */}
             <li className="social-icons">
               <a
                 href="mailto:mymadhavyadav07@gmail.com/"

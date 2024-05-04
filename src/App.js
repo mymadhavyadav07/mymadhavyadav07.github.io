@@ -8,7 +8,7 @@ import Preloader from "./Preloader";
 import MyNav from "./components/navbar/MyNav";
 import { BrowserRouter as Router } from "react-router-dom";
 import Home from "./pages/home_page/HomePage";
-// import Resume from "./pages/resume_page/ResumePage";
+import Resume from "./pages/resume_page/ResumePage";
 import ProjectPage from "./pages/project_page/ProjectPage";
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/footer/Footer";
@@ -64,7 +64,7 @@ function App() {
           </Route>
           <Route path="/projectspage" element={<ProjectPage />} />
           <Route path="/certificatepage" element={<CertificatePage />} />
-          {/* <Route path="/resume" element={<Resume />} /> */}
+          <Route path="/resume" element={<Resume />} />
           <Route path="/blogs" element={<ComingSoon />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
