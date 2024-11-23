@@ -9,6 +9,7 @@ import neta from "../../images/NetaSoochak.png";
 import library from "../../images/library-management.png";
 import hackernews from "../../images/the-hacker-news-scraper.png";
 import vision from "../../images/the-vision.png";
+import stegano from "../../images/steganographic-encoder.png";
 import { FaCode } from "react-icons/fa";
 export default function ProjectPage() {
   return (
@@ -32,6 +33,66 @@ export default function ProjectPage() {
                   <Row>
                     <Col md={12} className="mt-5">
                       <Row className="g-5">
+                      <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  Steganographic Encoder
+                                </h5>
+                                <img src={stegano} alt="Steganographic-Encoder" />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://github.com/mymadhavyadav07/Steganographic-Encoder"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                >
+                                  The Steganographic Encoder is a Django-based web
+                                  application that enables users to hide and extract 
+                                  secret messages within images using steganography techniques.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                Python, Django, HTML, CSS and JavaScript
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
                         <Col md={3} className="col-sm-12 col-md-4">
                           <Fade bottom>
                             <div

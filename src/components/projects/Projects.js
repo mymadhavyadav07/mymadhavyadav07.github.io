@@ -24,6 +24,10 @@ export default function Projects() {
                 <h1 className="aboutme-heading">Projects</h1>
               </Zoom>
             </Col>
+
+            
+            
+
             <Col md={3}>
               <Fade bottom>
                 <div
@@ -84,6 +88,7 @@ export default function Projects() {
                 </div>
               </Fade>
             </Col>
+
             <Col md={3}>
               <Fade bottom>
                 <div
@@ -146,6 +151,7 @@ export default function Projects() {
                 </div>
               </Fade>
             </Col>
+            
             <Col md={3}>
               <Fade bottom>
                 <div

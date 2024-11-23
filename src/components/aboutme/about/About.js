@@ -45,7 +45,7 @@ const About = () => {
 
                   <b className="purple">
                     {" "}
-                    Django, Selenium, OpenCV.{" "}
+                    Django, BeautifulSoup, Selenium, OpenCV etc.{" "}
                   </b>
                 <br />
                 <br />
