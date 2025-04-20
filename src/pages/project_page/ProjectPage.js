@@ -48,7 +48,7 @@ export default function ProjectPage() {
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                                   Steganographic Encoder/Decoder
                                 </h5>
-                                <img src={remote} alt="Steganographic-Encoder" />
+                                <img src={stegano} alt="Steganographic-Encoder" />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
