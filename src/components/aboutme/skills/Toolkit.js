@@ -4,14 +4,18 @@ import vs from "../../../images/Vs.png";
 import pc from "../../../images/pc.png";
 import git from "../../../images/git.png";
 import github from "../../../images/github.png";
-import cb from "../../../images/cb.png";
 import pg from "../../../images/pg.png";
 import wsl from "../../../images/wsl.png";
-import vm from "../../../images/virtual-box.png";
 import django from "../../../images/django.jpg";
 import mysql from "../../../images/mysql.png";
 import docker from "../../../images/docker.png";
-import chrome from "../../../images/chorme.svg";
+import hf from "../../../images/hf.png";
+import langchain from "../../../images/langchain.png";
+import llama from "../../../images/llama.png";
+
+import tensorflow from "../../../images/tf.png";
+import opencv from "../../../images/opencv.png";
+
 import { Link } from "react-router-dom";
 import Zoom from "react-reveal/Zoom";
 
@@ -41,7 +45,7 @@ export default function Toolkit() {
             <img src={pc} alt="" style={{ width: "85%", height: "85%" }} />
           </Col>
           <Col xs={4} md={2} className="tech-icons">
-            <img src={vm} alt="" style={{ width: "85%", height: "85%" }} />
+            <img src={tensorflow} alt="" style={{ width: "85%", height: "85%" }} />
           </Col>
           <Col xs={4} md={2} className="tech-icons">
             <img src={docker} alt="" style={{ width: "85%", height: "85%" }} />
@@ -70,14 +74,22 @@ export default function Toolkit() {
             />
           </Col>
           <Col xs={4} md={2} className="tech-icons">
-            <img src={cb} alt="" style={{ width: "95%", height: "95%" }} />
+            <img src={opencv} alt="" style={{ width: "95%", height: "95%" }} />
           </Col>
           <Col xs={4} md={2} className="tech-icons">
             <img src={pg} alt="" style={{ width: "95%", height: "95%" }} />
           </Col>
 
           <Col xs={4} md={2} className="tech-icons">
-            <img src={chrome} alt="" style={{ width: "95%", height: "95%" }} />
+            <img src={hf} alt="" style={{ width: "95%", height: "95%" }} />
+          </Col>
+
+          <Col xs={4} md={2} className="tech-icons">
+            <img src={langchain} alt="" style={{ width: "95%", height: "95%" }} />
+          </Col>
+
+          <Col xs={4} md={2} className="tech-icons">
+            <img src={llama} alt="" style={{ width: "95%", height: "95%" }} />
           </Col>
         </Row>
       </Container>

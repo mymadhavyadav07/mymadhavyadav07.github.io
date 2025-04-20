@@ -31,18 +31,7 @@ export default function Ranking() {
               </Zoom>
             </a>
           </Col>
-          <Col md={3}>
-            <a
-              href="https://tryhackme.com/p/mymadhavyadav07"
-              target="_blank"
-              rel="noreferrer"
-              className="icon-colour  home-social-icons"
-            >
-              <Zoom cascade>
-                <SiTryhackme />
-              </Zoom>
-            </a>
-          </Col>{" "}
+          
         </Row>
       </Container>
     </div>
