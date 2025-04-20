@@ -1,33 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.2ccb1c48.css",
-    "main.js": "/static/js/main.aa5cbe41.js",
+    "main.js": "/static/js/main.5dd506b4.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/stegano.png": "/static/media/stegano.e0b5df83af2cd91cefba.png",
     "static/media/pc.png": "/static/media/pc.06ad21ea51446dc1062f.png",
     "static/media/Vs.png": "/static/media/Vs.19edc3fbac1c451f289d.png",
     "static/media/pg.png": "/static/media/pg.9f8f5cd98ce5726b002f.png",
+    "static/media/Resume.pdf": "/static/media/Resume.c3c2720ab4071c919db6.pdf",
     "static/media/remote_administration.png": "/static/media/remote_administration.3f6caa4bc3ac499c1617.png",
     "static/media/the-hacker-news-scraper.png": "/static/media/the-hacker-news-scraper.d1aeaef427b4b5f9a365.png",
-    "static/media/Resume.pdf": "/static/media/Resume.4cfc62025ec917057941.pdf",
     "static/media/Flight-Tracker.png": "/static/media/Flight-Tracker.73ad7db4aa50de2c0e2f.png",
     "static/media/github.png": "/static/media/github.345dc4a21070f9083ca7.png",
     "static/media/the-vision.png": "/static/media/the-vision.053e9b8dc11a015a7b95.png",
-    "static/media/virtual-box.png": "/static/media/virtual-box.368f8896cbfff27f9f51.png",
     "static/media/library-management.png": "/static/media/library-management.04b54d832e7ee54e0881.png",
     "static/media/pre.svg": "/static/media/pre.e4c81c26304bc309eb55.svg",
     "static/media/h3.jpg": "/static/media/h3.dc52d5d40a40b13154b0.jpg",
     "static/media/NetaSoochak.png": "/static/media/NetaSoochak.72c749cfa205ed6bb528.png",
     "static/media/django.jpg": "/static/media/django.4eeb8041b36786d86f1f.jpg",
-    "static/media/chorme.svg": "/static/media/chorme.b0bd08e3d4226484ce842d3453b979e9.svg",
     "index.html": "/index.html",
     "main.2ccb1c48.css.map": "/static/css/main.2ccb1c48.css.map",
-    "main.aa5cbe41.js.map": "/static/js/main.aa5cbe41.js.map",
+    "main.5dd506b4.js.map": "/static/js/main.5dd506b4.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ccb1c48.css",
-    "static/js/main.aa5cbe41.js"
+    "static/js/main.5dd506b4.js"
   ]
 }
